@@ -15,9 +15,10 @@
     --ff-primary: 'League Spartan', sans-serif;
     --fw-400: 400;
     --fw-500: 500;
+    --fw-600: 600;
     --fw-700: 700;
     /*BORDERS*/
-    --border-radius: 0.5rem;
+    --border-radius: 0.8rem;
 }
 
 /*-----------------------------------*\
@@ -131,8 +132,8 @@ body {
 }
 
 .main {
-    display: flex;
-    align-items: center;
+    display: grid;
+    gap: 2rem;
     flex: 1;
     padding: 7.5rem 2rem;
 }
@@ -158,3 +159,44 @@ body {
 /*-----------------------------------*\
  * #COMPONENTS
 \*-----------------------------------*/
+
+.stars {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.ratings {
+    display: grid;
+    gap: 1.7rem;
+}
+
+.rating__card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    background: var(--clr-light-magenta);
+    border-radius: var(--border-radius);
+    padding: 1.5rem;
+}
+
+.rating__text {
+    font-weight: var(--fw-600);
+    color: var(--clr-v-dark-magenta);
+    font-size: 1.6rem;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: var(--clr-white);
+}
+
+.reviews__card {
+    background: var(--clr-v-dark-magenta);
+    border-radius: var(--border-radius);
+    padding: 3rem;
+    max-width: 33rem;
+}
