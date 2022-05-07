@@ -360,7 +360,7 @@ body {
   .ratings {
     margin-top: 0.9375rem;
     grid-column: 1/3;
-    padding: 0 10rem;
+    padding: 0 7rem;
   }
 
 }
@@ -380,10 +380,10 @@ body {
   }
 
   .ratings__card {
-    max-width: 26rem;
+    max-width: 28rem;
     flex-direction: row;
     padding: 0.9375rem 2.5rem 0.9375rem 1.5625rem;
-    gap: 3rem;
+    gap: 1rem;
   }
 
   .ratings__card-start {
@@ -397,7 +397,7 @@ body {
   }
 
   .reviews {
-    padding: 2.5rem 0;
+    padding: 1.5rem 0;
     display: flex;
     justify-content: space-between;
   }
